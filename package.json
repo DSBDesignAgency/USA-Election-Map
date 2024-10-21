@@ -2,12 +2,12 @@
   "name": "usa-election-map",
   "version": "1.0.0",
   "description": "An interactive USA presidential, senate, house, and governor election map. Created with HTML/CSS/JS, map svg outlines from [YAPms](https://www.yapms.com) & [US District Shapefiles](https://cdmaps.polisci.ucla.edu), and map data from [MIT Election Lab](https://electionlab.mit.edu/data) & [Dave Leip's Atlas](https://uselectionatlas.org).",
-  "main": "index.js",
+  "main": "index.html",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node index.html"
   },
   "repository": {
     "type": "git",
