@@ -6,7 +6,9 @@
   "directories": {
     "lib": "lib"
   },
- 
+  "scripts": {
+    "start": "echo \"Beginning application\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DSBDesignAgency/USA-Election-Map.git"
