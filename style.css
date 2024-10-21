@@ -347,9 +347,9 @@ body {
 
 @media only screen and (max-width: 600px) {
   body {
-    #chartMobile {
+    .chart {
       display: block;
-      float: none;
+      flex:none;
       width: 100%;
     }
   }
