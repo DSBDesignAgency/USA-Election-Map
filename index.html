@@ -10,7 +10,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="./assets/discord-invite.css"> -->
     <script src="./src/console-capture.js"></script>
     <script src="./lib/jquery-3.5.1.min.js"></script>
     <script src="./lib/papaparse-5.0.2.min.js"></script>
@@ -44,15 +43,7 @@
     <script src="./src/display/region-box.js"></script>
     <script src="./src/display/control-events.js"></script>
     <script src="./src/display/file-loader.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107565763-1"></script> -->
-    <!-- <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-107565763-1');
-    </script> -->
+    
     <title>USA Election Map</title>
     <link rel="SHORTCUT ICON" type="image/x-icon" href="./assets/fwrdaxis-logo-icon-square.png"/>
     <link rel="icon" type="image/x-icon" href="./assets/fwrdaxis-logo-icon-square.png" />
@@ -64,9 +55,13 @@
     <meta property="og:description" content="Interactive USA map for election results and projections.">
     <meta property="og:image" content="https://map.jacksonjude.com/assets/fwrdaxis-logo-icon-square.png" />
   </head>
+  <!-- END HEAD -->
+   <!-- BODY START -->
   <body style="background-color: black; margin: 0rem;" onresize="updateSVGViewbox()">
 
     <div class="topnav">
+
+      <nav class="navbar navbar-expand-lg my-2">
       <a href="https://fwrdaxis.com" target="_blank" style="padding: 3rem; display: flex; align-items: center;">
         <img src="./assets/fwrdaxis-logo-icon-square.png" style="position: relative; width: 45rem; height: 45rem;" />
       </a>
@@ -241,6 +236,7 @@
         </div>
       </div>
     </div>
+  </nav>
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -286,7 +282,7 @@
       </div>
       </div>
       </div>
-      
+
       <div class="container">
       <div class="row">
         <div class="col-6">
