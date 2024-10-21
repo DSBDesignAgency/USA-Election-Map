@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "bar ./index.html"
+    "start": "node ./index.html"
   },
   "repository": {
     "type": "git",
