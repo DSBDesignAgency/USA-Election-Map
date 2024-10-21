@@ -345,7 +345,7 @@ body {
   transition: opacity 0.3s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   body {
     .chart {
       display: block;
